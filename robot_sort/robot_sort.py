@@ -104,6 +104,8 @@ class SortingRobot:
             self.swap_item
             self.compare_item
 
+        # Will work on this afternoon
+
 
 if __name__ == "__main__":
     # Test our your implementation from the command line
