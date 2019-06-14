@@ -21,3 +21,11 @@ b)  sum = 0
     n + n - 1 + n - 1 - 1 + 10 - 1 - 1 = 3n - 5 + 10 = 3n + 5 = n
 
     So this will run O(n) times
+
+c)  def bunnyEars(bunnies):
+      if bunnies == 0:
+        return 0
+
+      return 2 + bunnyEars(bunnies-1)
+
+  This will run O(n) times
