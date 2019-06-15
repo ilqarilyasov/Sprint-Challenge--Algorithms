@@ -6,8 +6,7 @@ a)  a = 0
     while (a < n^3):
       a += n^2
     
-    This will run just 2 time. O(1)
-    First time 'a' is going to be 'n^2' and the next time 'a = n^4' and it's bigger than 'n^3' and loop will break
+    This is going to run linear time. Answer: O(n)
 
 b)  sum = 0
     for i in range(n):
@@ -20,7 +19,7 @@ b)  sum = 0
             l += 1                          //1
             sum += 1                        //1
 
-    n + n - 1 + n - 1 - 1 + 10 - 1 - 1 = 3n - 5 + 10 = 3n + 5 = n
+    n * (n - 1) * (n - 1 - 1) * 10 - 1 - 1 = n^3
 
     So this will run O(n) times
 
